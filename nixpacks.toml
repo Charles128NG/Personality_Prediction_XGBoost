@@ -1,2 +1,2 @@
-[phase.name]
-  aptPkgs = ['libcairo2-dev', 'pkg-config', 'python3-dev']
+[phase.setup]
+  aptPkgs = ["...", "libcairo2", "libcairo2-dev", "pkg-config", "python3-dev"]
