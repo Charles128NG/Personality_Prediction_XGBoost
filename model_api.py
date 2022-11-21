@@ -11,7 +11,7 @@ from nltk.stem import PorterStemmer, WordNetLemmatizer
 from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 import data
-
+nltk.download('stopwords')
 StopWordsCache = stopwords.words('english')
 lemmatizer = WordNetLemmatizer()
 Vectorizer = TfidfVectorizer(use_idf=True)
