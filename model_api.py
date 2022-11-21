@@ -101,7 +101,7 @@ app.add_middleware(
 
 @app.post('/')
 def predict(data):
-    print(data)
+    #print(data)
     df = pd.DataFrame(data={'type':['INFP'],'posts':[data]})
     df = preprocess(df,lemmatize=True,MBTI_remove=True)
     ip_vect = Vectorizer.fit_transform(df['posts'])
