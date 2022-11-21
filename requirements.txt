@@ -143,7 +143,6 @@ testpath==0.4.4
 threadpoolctl==3.1.0
 tornado==5.1.1
 tqdm==4.64.0
-unattended-upgrades==0.1
 urllib3==1.25.8
 usb-creator==0.3.7
 uvicorn==0.11.3
