@@ -157,5 +157,4 @@ wordcloud==1.8.2.2
 wrapt==1.12.1
 wsproto==0.15.0
 xgboost==0.90
-xkit==0.0.0
 zipp==1.0.0
