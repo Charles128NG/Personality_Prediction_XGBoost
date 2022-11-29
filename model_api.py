@@ -12,6 +12,8 @@ from nltk.tokenize import word_tokenize
 from sklearn.feature_extraction.text import TfidfVectorizer
 import data
 nltk.download('stopwords')
+nltk.download('wordnet')
+nltk.download('omw-1.4')
 StopWordsCache = stopwords.words('english')
 lemmatizer = WordNetLemmatizer()
 Vectorizer = TfidfVectorizer(use_idf=True)
